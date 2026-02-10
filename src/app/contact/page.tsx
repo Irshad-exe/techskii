@@ -106,7 +106,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="font-semibold mb-2">Office Location</h3>
-                    <p className="text-muted text-sm">30 N Gould St<br />Sheridan, WY 82801<br />United States</p>
+                    <p className="text-muted text-sm">1250 W 3rd<br /> St. Cleveland, OH 44113,<br />United States</p>
                   </div>
                 </div>
               </div>

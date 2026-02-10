@@ -30,7 +30,7 @@ export default function Footer() {
         
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-muted">
           <p>© 2019 TechSkii. All rights reserved.</p>
-          <p>30 N Gould St, Sheridan, WY 82801</p>
+          <p>1250 W 3rd St. Cleveland, OH 44113, United States</p>
         </div>
       </div>
     </footer>
