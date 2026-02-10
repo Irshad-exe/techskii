@@ -28,7 +28,7 @@ export default function SplashScreen() {
       transition: {
         delay: i * 0.1,
         duration: 0.8,
-        ease: [0.6, 0.05, 0.01, 0.9],
+        ease: [0.6, 0.05, 0.01, 0.9] as const,
       },
     }),
     exit: {
