@@ -1,6 +1,6 @@
 export default function Stats() {
   const stats = [
-    { value: "10K+", label: "Candidates Placed" },
+    { value: "1500+", label: "Candidates Placed" },
     { value: "500+", label: "Partner Companies" },
     { value: "48hrs", label: "Average Response" },
   ];
