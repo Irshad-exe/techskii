@@ -12,6 +12,27 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "TechSkii - Transform Your Tech Career",
   description: "Navigate US tech hiring with transparency and expert guidance",
+  keywords: ["tech career", "US tech jobs", "tech hiring", "career guidance", "tech recruitment"],
+  authors: [{ name: "TechSkii" }],
+  openGraph: {
+    title: "TechSkii - Transform Your Tech Career",
+    description: "Navigate US tech hiring with transparency and expert guidance",
+    type: "website",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "TechSkii - Transform Your Tech Career",
+    description: "Navigate US tech hiring with transparency and expert guidance",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
