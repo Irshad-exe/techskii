@@ -10,15 +10,21 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://techskii.vercel.app'),
   title: "TechSkii - Transform Your Tech Career",
   description: "Navigate US tech hiring with transparency and expert guidance",
   keywords: ["tech career", "US tech jobs", "tech hiring", "career guidance", "tech recruitment"],
   authors: [{ name: "TechSkii" }],
+  alternates: {
+    canonical: '/',
+  },
   openGraph: {
     title: "TechSkii - Transform Your Tech Career",
     description: "Navigate US tech hiring with transparency and expert guidance",
     type: "website",
     locale: "en_US",
+    url: 'https://techskii.vercel.app',
+    siteName: 'TechSkii',
   },
   twitter: {
     card: "summary_large_image",
@@ -32,6 +38,9 @@ export const metadata: Metadata = {
       index: true,
       follow: true,
     },
+  },
+  verification: {
+    google: 'bda7823652ba3791',
   },
 };
 
