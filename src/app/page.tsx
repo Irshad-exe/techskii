@@ -4,7 +4,7 @@ import Services from "@/components/Services";
 import Stats from "@/components/Stats";
 import Testimonials from "@/components/Testimonials";
 import FinalCTA from "@/components/FinalCTA";
-
+import { Analytics } from "@vercel/analytics/next"
 export default function Home() {
   return (
     <>
