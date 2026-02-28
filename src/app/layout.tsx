@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://techskii.vercel.app'),
-  title: "TechSkii - Transform Your Tech Career",
+  title: "TechSkii - Skii your career Higher",
   description: "Navigate US tech hiring with transparency and expert guidance",
   keywords: ["tech career", "US tech jobs", "tech hiring", "career guidance", "tech recruitment"],
   authors: [{ name: "TechSkii" }],
