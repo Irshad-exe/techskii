@@ -46,7 +46,7 @@ export function Navbar() {
       <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         <div className="flex items-center justify-between h-20">
           <a href="#" className="flex items-center gap-2">
-             <img src="/public/logo.png" alt="Techskii" className="h-20 w-auto" />
+            <img src="/logo.png" alt="Techskii" className="h-12 w-auto" />
             <span className="text-2xl font-bold gradient-text">Techskii</span>
           </a>
 
